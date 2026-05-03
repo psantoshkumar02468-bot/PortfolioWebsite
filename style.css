@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+    background-color: rgb(0, 0, 44);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.right ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 23px;
+
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: rgb(117, 117, 219);
+    font-size: 1.02rem;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.first_Section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 70px;
+    margin-left: 140px;
+    margin-bottom: 60px;
+}
+
+.first_Section>div {
+    width: 40%;
+}
+
+.left_Section {
+    font-size: 3rem;
+    margin-top: 25px;
+    /* width: 45px; */
+
+
+}
+
+.right_Section {}
+
+.right_Section img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    border-radius: 8px;
+    margin-top: 30px;
+
+}
+
+.purple {
+    color: blueviolet;
+}
+
+#element {
+    color: rgb(170, 107, 228);
+}
+
+hr{
+    border: 0;
+    background-color: rgba(0, 153, 255, 0.783);
+    height: 1.1px;
+    width: 93vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+ .second_section {
+        color: white;
+        width: 80vw;
+        margin: 35px 215px;
+        height: 80vh;
+    }
+
+    .second_section h1 {
+        font-size: 1.5rem;
+        margin-bottom: 65px;
+    }
+
+    .gray {
+        color: gray;
+    }
+
+    .second_section .box {
+        width: 80vw;
+        height: 2px;
+        background-color: white;
+        margin-top: 40px;
+        display: flex;
+    }
+
+    .second_section .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 100px;
+
+    }
+
+    .physics {
+        width: 50px;
+        position: relative;
+        top: -185px;
+        left: -24px;
+    }
+
+    .vertical_text {
+        position: relative;
+        top: -230px;
+        left: -21px;
+        width: 100px;
+    }
+
+    .vertical_desc {
+        position: relative;
+        top: -220px;
+        width: 130px;
+        color: gray;
+        left: -30px;
+        font-size: 10px;
+    }
+
+    .airforce {
+        width: 100px;
+        position: relative;
+        top: -63px;
+        left: -50px;
+    }
+
+    .vertical_text1 {
+        position: relative;
+        top: 25px;
+        left: -21px;
+        width: 120px;
+    }
+
+    .vertical_desc1 {
+        position: relative;
+        top: 32px;
+        width: 130px;
+        color: gray;
+        left: -30px;
+        font-size: 10px;
+    }
+
+    .dsa {
+        width: 70px;
+        position: relative;
+        top: -67px;
+        left: -32px;
+    }
+
+    .vertical_text2 {
+        position: relative;
+        top: 20px;
+        left: -21px;
+        width: 120px;
+    }
+
+    .vertical_desc2 {
+        position: relative;
+        top: 23px;
+        width: 130px;
+        color: gray;
+        left: -30px;
+        font-size: 10px;
+    }
+
+    .Programmer {
+        width: 60px;
+        position: relative;
+        top: -67px;
+        left: -32px;
+    }
+
+    .vertical_text3 {
+        position: relative;
+        top: 30px;
+        left: -21px;
+        width: 120px;
+    }
+      .vertical_desc3 {
+        position: relative;
+        top: 35px;
+        width: 130px;
+        color: gray;
+        left: -30px;
+        font-size: 10px;
+    }
+
+
+  .footer {
+        display: flex;
+        justify-content: space-evenly;
+        /* main fix */
+        align-items: flex-start;
+        padding: 40px 0;
+        background-color: #111;
+        color: white;
+        width: 100%;
+        align-items: center;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    footer>div {
+        width: 30%;
+
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 23px 122px;
+    }
+
+    footer ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .footer a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .footer ul li {
+        margin: 10px 0;
+    }
+
+    .footer a:hover {
+        color: #00bcd4;
+    }
+
+    .footer_third i {
+        margin-right: 8px;
+    }
+
+
+    .footer_second ul LI {
+        padding: 4px 0;
+
+    }
+
+    .footer_first>div {
+        width: 50px;
+    }
+
+    .footer_third ul li a {
+        color: white;
+    }
+
+    .footer_third ul li {
+        display: flex;
+        align-items: center;
+    }
+
+    .LinkedIn {
+
+        width: 23px;
+        margin-right: 8px;
+    }
+
+    .github  {
+        width: 23px;
+        margin-right: 8px;
+        background-color: white;
+
+    }
+    .git{
+        display: flex;
+    }
+    .text{
+        top: 12px;
+    }
+    .footer_third ul{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+
+.social-list {
+    display: flex;              
+    align-items: center;
+    /* gap: 10px; */
+    list-style: none;
+    padding: 0;
+}
+
+.social-list li a {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.social-list img {
+    width: 20px;
+    height: 20px;
+}
+
+.github{
+    background-color: white;
+}
+
+.footer_rights{
+    text-align: center;
+    color: gray;
+    bottom: 5px;
+    font-size: 1rem;
+    padding: 12px 0;
+    background-color: #111 ;
+}
+
+.left_Section .btn{
+    padding: 12px;
+    border-radius: 6px;
+    background-color:white ;
+    /* color: white; */
+    cursor:pointer;
+  }

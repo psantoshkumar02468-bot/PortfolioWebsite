@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #1e293b;
+            --text-main: #334155;
+            --text-light: #64748b;
+            --bg-light: #f8fafc;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.7;
+            margin: 0;
+            color: var(--text-main);
+            background-color: var(--bg-light);
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 4rem auto;
+            padding: 0 1.5rem;
+        }
+
+        .profile-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .profile-header h1 {
+            font-size: 2.5rem;
+            color: var(--secondary-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .about-content {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+        }
+
+        .section-title {
+            border-bottom: 2px solid var(--bg-light);
+            padding-bottom: 0.5rem;
+            margin-top: 2rem;
+            color: var(--secondary-color);
+        }
+
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            list-style: none;
+            padding: 0;
+        }
+
+        .skill-tag {
+            background: var(--bg-light);
+            color: var(--primary-color);
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            border: 1px solid #e2e8f0;
+        }
+
+        .cta-container {
+            text-align: center;
+            margin-top: 3rem;
+        }
+
+        .hire-btn {
+            display: inline-block;
+            background: var(--primary-color);
+            color: white;
+            padding: 1rem 2.5rem;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .hire-btn:hover {
+            background: #1d4ed8;
+        }
+
+        @media (max-width: 600px) {
+            .about-content {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header class="profile-header">
+            <h1>About Me</h1>
+            <p style="color: var(--primary-color); font-weight: bold;">Full-Stack Developer & MCA Student</p>
+        </header>
+
+        <div class="about-content">
+            <p>
+                I am a <strong>Full-Stack Developer</strong> currently pursuing my MCA. I have a strong technical foundation and a disciplined approach to problem-solving.
+            </p>
+
+            
+
+            <h3 class="section-title">Technical Skills</h3>
+            <ul class="skills-list">
+                <li class="skill-tag">HTML & CSS</li>
+                <li class="skill-tag">JavaScript</li>
+                <li class="skill-tag">Node.js</li>
+                <li class="skill-tag">Express.js</li>
+                <li class="skill-tag">C / Java</li>
+            </ul>
+                  
+
+        <div class="cta-container">
+            <!-- Mail link as requested -->
+            <a href="mailto:yourname@example.com" class="hire-btn">Hire Me</a>
+        </div>
+    </div>
+
+</body>
+</html>

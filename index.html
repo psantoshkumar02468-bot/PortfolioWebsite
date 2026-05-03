@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Santosh- Developer Portfolio</title>
+</head>
+<style>
+  .btn a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+  }
+</style>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Santosh's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/services.html">Services</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a target="_blank" href="mailto:psantoshkumar02468@gmail.com">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="first_Section">
+            <div class="left_Section">
+                Hi, I am <span class="purple">Santosh</span>
+                <div>and I am a passionate <span class="purple1"></span>
+                    <span id="element"></span>
+                    <div class="button">
+                        <button class="btn"><a target="_blank" href="Santosh_resume.pdf">Download Resume</a></button>
+                        <button  class="btn"><a target="_blank" href="https://github.com/psantoshkumar02468-bot">Visit GitHub</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="right_Section">
+                <img src="San.png" alt="photo" width="80%">
+            </div>
+        </section>
+
+        <hr>
+        <section class="second_section">
+            <span class="gray">What i have done so far</span>
+            <h1>Learning Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <svg class="physics" width="40" height="320" viewBox="0 0 300 300"
+                        xmlns="http://www.w3.org/2000/svg">
+
+                        <defs>
+                            <!-- Gradients -->
+                            <radialGradient id="nucleusGrad" cx="50%" cy="40%" r="60%">
+                                <stop offset="0%" stop-color="#5df2ff" />
+                                <stop offset="60%" stop-color="#00bcd4" />
+                                <stop offset="100%" stop-color="#006064" />
+                            </radialGradient>
+
+                            <radialGradient id="electronGrad" cx="40%" cy="30%" r="70%">
+                                <stop offset="0%" stop-color="#a0ffff" />
+                                <stop offset="60%" stop-color="#00bcd4" />
+                                <stop offset="100%" stop-color="#004d57" />
+                            </radialGradient>
+
+                            <linearGradient id="orbitGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#00e5ff" />
+                                <stop offset="100%" stop-color="#006064" />
+                            </linearGradient>
+
+                            <!-- Glow -->
+                            <filter id="glow">
+                                <feGaussianBlur stdDeviation="2.5" result="blur" />
+                                <feMerge>
+                                    <feMergeNode in="blur" />
+                                    <feMergeNode in="SourceGraphic" />
+                                </feMerge>
+                            </filter>
+                        </defs>
+
+                        <!-- Rotating group -->
+                        <g>
+                            <animateTransform attributeName="transform" type="rotate" from="0 150 150" to="360 150 150"
+                                dur="6s" repeatCount="indefinite" />
+
+                            <!-- Orbits -->
+                            <ellipse cx="150" cy="150" rx="110" ry="50" fill="none" stroke="url(#orbitGrad)"
+                                stroke-width="4" transform="rotate(0 150 150)" filter="url(#glow)" />
+
+                            <ellipse cx="150" cy="150" rx="110" ry="50" fill="none" stroke="url(#orbitGrad)"
+                                stroke-width="4" transform="rotate(60 150 150)" filter="url(#glow)" />
+
+                            <ellipse cx="150" cy="150" rx="110" ry="50" fill="none" stroke="url(#orbitGrad)"
+                                stroke-width="4" transform="rotate(120 150 150)" filter="url(#glow)" />
+
+                            <!-- Electrons -->
+                            <circle cx="260" cy="150" r="10" fill="url(#electronGrad)" filter="url(#glow)" />
+
+                            <circle cx="85" cy="65" r="10" fill="url(#electronGrad)" filter="url(#glow)" />
+
+                            <circle cx="95" cy="240" r="10" fill="url(#electronGrad)" filter="url(#glow)" />
+                        </g>
+
+                        <!-- Nucleus (static center) -->
+                        <circle cx="150" cy="150" r="30" fill="url(#nucleusGrad)" filter="url(#glow)" />
+
+                    </svg>
+                    <div class="vertical_text">
+                        Physics Graduate (2022-2025)
+                    </div>
+                    <div class="vertical_desc">
+                        B.Sc. in Physics (Honours)
+                        Ganjam Degree College | 71%
+
+                        I completed my degree with a 71% score, specializing in core subjects like classical mechanics,
+                        thermodynamics, and electromagnetism.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="airforce" src="Indian_Air_Force-Logo.wine.svg" alt="">
+                    <div class="vertical_text1">
+                        Indian Air Force Qualified (2023)
+                    </div>
+                    <div class="vertical_desc1">
+                        Indian Air Force Selection
+                        Qualified Candidate
+
+                        I successfully cleared the highly competitive Indian Air Force recruitment examination, proving
+                        my aptitude and dedication. Although I did not join due to specific medical standards regarding
+                        Color Vision (CP-4), qualifying for such a prestigious national merit list reflects my
+                        discipline and ability to excel under rigorous selection criteria.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="dsa" src="dsa_logo.svg" alt="dsa">
+                    <div class="vertical_text2">
+                        Data Structures & Algorithms in C (2025)
+                    </div>
+                    <div class="vertical_desc2">
+                        Data Structures & Algorithms in C
+                        Core Logic Development | 2025
+
+                        During this period, implementing essential data structures like Linked Lists, Stacks, and Queues
+                        from scratch using
+                        the C language. By managing manual memory allocation and pointer logic, I gained a deep
+                        understanding of how data is stored and manipulated at a low level.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="Programmer" src="Programmer.png" alt="Programmer">
+                    <div class="vertical_text3">
+                        Full-Stack Web Development (2026)
+                    </div>
+                    <div class="vertical_desc3">
+                        Full-Stack Web Development
+                        Modern Web Applications
+
+                        I specialize in building responsive, end-to-end web applications using the MERN stack and modern
+                        frontend tools. By combining HTML, CSS, and JavaScript with backend technologies like Node.js.
+                        and Express.js
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <div class="footer">
+            <div class="footer_first">
+                <h3>Santosh's Developer <br> Portfolio</h3>
+            </div>
+            <div class="footer_second">
+                <ul>
+
+                    <li><a href="/services.html">Services</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a target="_blank" href="mailto:psantoshkumar02468@gmail.com">Contact Me</a></li>
+                </ul>
+            </div>
+          <div class="footer_third">
+    <div></div>
+
+    <ul class="social-list">
+        <li>
+            <a target="_blank" href="https://www.linkedin.com/in/p-santosh-kumar-9105b637b/">
+                <img src="icons8-linkedin (1).svg" alt="LinkedIn">
+                <span>LinkedIn</span>
+            </a>
+        </li>
+
+        <li>
+            <a target="_blank" href="https://github.com/psantoshkumar02468-bot">
+                <img class="github" src="icons8-github.svg" alt="GitHub">
+                <span>GitHub</span>
+            </a>
+        </li>
+
+        <li>
+            <a target="_blank" href="mailto:psantoshkumar02468@gmail.com">
+                <img src="icons8-gmail-logo-94.png" alt="Email">
+                <span>Email</span>
+            </a>
+        </li>
+
+        <li>
+            <a target="_blank" href="https://www.instagram.com/p_santosh_kumar_3133/">
+                <img src="icons8-instagram.svg" alt="Instagram">
+                <span>Instagram</span>
+            </a>
+        </li>
+    </ul>
+</div>
+</div>
+
+</footer>
+<div class="footer_rights">
+   Copyright &#169; santosh.com | All rights reserved
+</div>
+
+
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Java Development', 'Video Editor', 'Software Developer', 'DSA'],
+            //   typeSpeed: 50,
+            typeSpeed: 50,
+            backSpeed: 30,
+            backDelay: 1000,
+            loop: true
+        });
+    </script>
+
+</body>
+
+</html>
